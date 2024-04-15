@@ -1,0 +1,35 @@
+name: gift_grab
+description: Game made using Flame where users grab presents to increase their scores.
+publish_to: "none"
+version: 1.0.9+9
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  device_info: ^2.0.0
+  flame: ^1.4.0
+  flame_audio: ^2.0.5
+  hive: ^2.2.3
+  path_provider: ^2.0.11
+  toggle_switch: ^2.0.1
+
+  nakama: ^0.1.6  
+  flutter_riverpod: ^2.3.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/images/
